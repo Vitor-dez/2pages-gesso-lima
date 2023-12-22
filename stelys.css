@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 
@@ -57,6 +60,12 @@
     color: white;
 }
 
+.text-video1 button:hover {
+    border: solid 1px rgb(3, 141, 134);
+    transition: 0.5s;
+background: #bd1004;
+}
+
 .text-video1 button a{
     text-decoration: none;
     color: white;
@@ -101,6 +110,7 @@ padding-right: 20px;
     height: 100%;
     margin-top: 10px;
     box-shadow: 40px 10px 12px black;
+    margin-top: 10px;
 }
 
 .servico2{
@@ -117,4 +127,55 @@ padding-right: 20px;
     margin-top: 60px;
 }
 
+.container{
+   display: blo;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
   
+
+}
+
+.caixa2{
+width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+   
+}
+.caixa3{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+  
+
+.saiba-mais{
+width: 100%;
+height: 150px;
+background: #3b0e0e;
+margin-top: 30px;
+color: white;
+text-align: center;
+font-size: 15px;
+padding: 10px;
+gap: 10px;
+}
+
+
+.saiba-mais ul li  {
+ list-style-type: none;
+}
+
+.saiba-mais ul li a{
+
+    text-decoration: none;
+    color: rgb(124, 120, 120);
+}
+
+.saiba-mais ul li a:hover {
+font-size:17px ;
+color: white;
+
+}
