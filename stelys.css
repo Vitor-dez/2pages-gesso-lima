@@ -1,0 +1,120 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.box1 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    background-color: #3b0e0e;
+
+}
+
+.box1 a img {
+    width: 25px;
+
+
+}
+
+
+
+.box-video {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.text-video1 {
+    width: 250px;
+    font-size: 10px;
+    display: block;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.text-video1 button  {
+    margin-top: 40px;
+    padding: 7px;
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #3b0e0e;
+    border: none;
+    color: white;
+}
+
+.text-video1 button a{
+    text-decoration: none;
+    color: white;
+}
+
+.caixa1 {
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    display: block;
+    align-items: center;
+
+
+
+
+}
+
+
+.servico {
+    width: 300px;
+    height: 350px;
+    box-shadow: 10px 10px 12px black;
+    border-radius: 10px;
+
+}
+
+.caixa-video-2{
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+
+.text-video1 h3{
+padding-right: 20px;
+}
+
+.video-2{
+    width: 70%;
+    height: 100%;
+    margin-top: 10px;
+    box-shadow: 40px 10px 12px black;
+}
+
+.servico2{
+    
+    width: 300px;
+    height: 350px;
+    box-shadow: 10px 10px 12px black;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+.servicos-completos{
+    text-align: center;
+    margin-top: 60px;
+}
+
+  
