@@ -113,14 +113,6 @@ padding-right: 20px;
     margin-top: 10px;
 }
 
-.servico2{
-    
-    width: 300px;
-    height: 350px;
-    box-shadow: 10px 10px 12px black;
-    border-radius: 10px;
-    margin-bottom: 60px;
-}
 
 .servicos-completos{
     text-align: center;
@@ -139,11 +131,13 @@ padding-right: 20px;
 .caixa2{
 width: 100%;
     margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center; 
     text-align: center;
    
 }
+
 .caixa3{
     display: flex;
     justify-content: center;
@@ -178,4 +172,33 @@ gap: 10px;
 font-size:17px ;
 color: white;
 
+}
+
+@media screen and (max-width: 654px) {
+
+    body{
+        overflow-x: hidden;
+    }
+    .box-video{
+    
+        display: grid;
+        gap: 50px;
+    }
+
+
+    .servico{
+        width: 250px;
+        margin-bottom:50px ;
+    }
+
+    
+.caixa2{
+    display: grid;
+}
+
+
+
+.caixa3{
+    display: grid;
+}
 }
